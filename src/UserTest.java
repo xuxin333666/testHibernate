@@ -33,4 +33,27 @@ public class UserTest {
 
         session.close();
     }
+
+    @Test
+    public void delete() {
+        Configuration cfg = new Configuration().configure();
+
+        ServiceRegistry registry = new StandardServiceRegistryBuilder().applySettings(cfg.getProperties()).build();
+
+        SessionFactory sessionFactory = cfg.buildSessionFactory(registry);
+
+        Session session = sessionFactory.openSession();
+
+        Transaction transaction = session.beginTransaction();
+
+        User user = new User();
+
+        user.setId(4);
+
+        session.delete(user);
+
+        transaction.commit();
+
+        session.close();
+    }
 }
