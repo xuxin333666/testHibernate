@@ -8,7 +8,7 @@ import org.hibernate.service.ServiceRegistry;
 import org.junit.Test;
 
 /**
- * @author 79330
+ * @author 793307010
  */
 public class UserTest {
     @Test
