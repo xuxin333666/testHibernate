@@ -1,3 +1,5 @@
+package cn.kgc.test;
+
 import cn.kgc.entity.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -6,6 +8,7 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import org.junit.Test;
+
 
 /**
  * @author 793307010
@@ -56,4 +59,5 @@ public class UserTest {
 
         session.close();
     }
+
 }
