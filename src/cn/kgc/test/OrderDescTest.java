@@ -32,7 +32,7 @@ public class OrderDescTest {
         Session session = HibernateUtils.openSession();
 
         Transaction transaction = session.beginTransaction();
-        OrderDescPk orderDescPk = new OrderDescPk(1, 1);
+        OrderDescPk orderDescPk = new OrderDescPk(2, 1);
         OrderDesc orderDesc = new OrderDesc("xuXin",orderDescPk);
 
         session.save(orderDesc);

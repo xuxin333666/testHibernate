@@ -1,7 +1,9 @@
 package cn.kgc.entity;
 
+import javax.persistence.Embeddable;
 import java.io.Serializable;
 
+@Embeddable
 /**
  * @ProjectName: testHibernate
  * @Package: cn.kgc.entity

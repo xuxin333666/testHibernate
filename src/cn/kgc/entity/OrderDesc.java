@@ -1,9 +1,11 @@
 package cn.kgc.entity;
 
-import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
+@Entity
+@Table(name = "t_order_desc")
 /**
  * @ProjectName: testHibernate
  * @Package: cn.kgc.entity
@@ -13,8 +15,6 @@ import javax.persistence.Table;
  * @Date: 2018/10/12 9:26
  * @Version: 1.0
  */
-@Entity
-@Table(name = "t_order_desc")
 public class OrderDesc {
     private String name;
     private OrderDescPk pk;
@@ -34,7 +34,7 @@ public class OrderDesc {
     public void setName(String name) {
         this.name = name;
     }
-    @EmbeddedId
+    @Id
     public OrderDescPk getPk() {
         return pk;
     }
