@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6255b53e-ad77-4692-a19a-93c0adaac202" name="Default Changelist" comment="联合主键测试">
+    <list default="true" id="6255b53e-ad77-4692-a19a-93c0adaac202" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testHibernate/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testHibernate/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/kgc/entity/OrderDesc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/kgc/entity/OrderDesc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/kgc/entity/OrderDescPk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/kgc/entity/OrderDescPk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testHibernate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testHibernate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,72 +36,83 @@
     <session id="-1760314505">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.22" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="2" />
-          <entry key="java" value="28" />
+          <entry key="java" value="33" />
           <entry key="sql" value="2" />
-          <entry key="xml" value="6" />
+          <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="33" />
           <entry key="Scratch" value="2" />
-          <entry key="XML" value="6" />
+          <entry key="XML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
           <entry key="iml" value="2" />
-          <entry key="java" value="729" />
+          <entry key="java" value="1329" />
           <entry key="sql" value="38" />
-          <entry key="txt" value="42" />
-          <entry key="xml" value="45" />
+          <entry key="txt" value="49" />
+          <entry key="xml" value="119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="729" />
-          <entry key="PLAIN_TEXT" value="50" />
+          <entry key="JAVA" value="1329" />
+          <entry key="PLAIN_TEXT" value="57" />
           <entry key="Scratch" value="38" />
-          <entry key="XML" value="45" />
+          <entry key="XML" value="119" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/kgc/test/UserTest.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/kgc/entity/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="24" column="55" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="24" selection-end-column="55" />
+            <state relative-caret-position="323">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/kgc/utils/HibernateUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/kgc/test/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="228">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/kgc/test/OrderDescTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="34" column="56" lean-forward="true" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+            <state relative-caret-position="551">
+              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,21 +132,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/kgc/entity/OrderDesc.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/kgc/entity/ClassRoom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-171">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="133">
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
                 <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,33 +154,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="209">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/kgc/entity/OrderDescPk.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/kgc/entity/ClassRoom.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/kgc/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -206,11 +197,16 @@
         <option value="$PROJECT_DIR$/src/cn/kgc/entity/User.hbm.xml" />
         <option value="$PROJECT_DIR$/src/UserTest.java" />
         <option value="$PROJECT_DIR$/src/cn/kgc/utils/HibernateUtils.java" />
-        <option value="$PROJECT_DIR$/src/cn/kgc/test/OrderDescTest.java" />
-        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fce30cdd-79c9-488d-9234-d50e9981ffe7/console.sql" />
         <option value="$PROJECT_DIR$/src/cn/kgc/entity/OrderDescPk.java" />
         <option value="$PROJECT_DIR$/src/cn/kgc/entity/OrderDesc.java" />
+        <option value="$PROJECT_DIR$/src/cn/kgc/test/OrderDescTest.java" />
+        <option value="$PROJECT_DIR$/src/cn/kgc/entity/ClassRoom.java" />
+        <option value="$PROJECT_DIR$/src/cn/kgc/entity/Student.java" />
+        <option value="$PROJECT_DIR$/src/cn/kgc/entity/Student.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/cn/kgc/test/StudentTest.java" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/cn/kgc/entity/ClassRoom.hbm.xml" />
       </list>
     </option>
   </component>
@@ -263,6 +259,13 @@
               <item name="testHibernate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="kgc" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testHibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testHibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kgc" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -282,7 +285,7 @@
     <property name="SearchEverywhereHistoryKey" value="reader&#9;PSI&#9;JAVA://java.io.Reader&#10;atomic&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicBoolean&#10;copyon&#9;PSI&#9;JAVA://java.util.concurrent.CopyOnWriteArrayList&#10;list&#9;PSI&#9;JAVA://java.util.List&#10;hashSet&#9;PSI&#9;JAVA://java.util.HashSet" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539309939620" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539401370823" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -293,9 +296,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.kgc.test" />
       <recent name="cn.kgc.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\testHibernate\src\cn\kgc\entity" />
       <recent name="D:\ideaProject\testHibernate\lib" />
     </key>
   </component>
@@ -311,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrderDescTest.add">
+  <component name="RunManager" selected="JUnit.StudentTest.query">
     <configuration name="OrderDescTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testHibernate" />
       <extension name="coverage">
@@ -328,30 +333,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testHibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kgc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="cn.kgc.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.kgc.test.UserTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testHibernate" />
-      <option name="PACKAGE_NAME" value="cn.kgc.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.kgc.test.UserTest" />
+      <option name="MAIN_CLASS_NAME" value="cn.kgc.test.StudentTest" />
       <option name="METHOD_NAME" value="add" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentTest.query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testHibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kgc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.kgc.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.kgc.test.StudentTest" />
+      <option name="METHOD_NAME" value="query" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testHibernate" />
       <option name="PACKAGE_NAME" value="cn.kgc.test" />
       <option name="MAIN_CLASS_NAME" value="cn.kgc.test.UserTest" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -367,19 +384,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserTest.add" />
-      <item itemvalue="JUnit.UserTest.delete" />
       <item itemvalue="JUnit.UserTest" />
       <item itemvalue="JUnit.UserTest.useLinkedListAsLIFO" />
       <item itemvalue="JUnit.OrderDescTest.add" />
+      <item itemvalue="JUnit.StudentTest.add" />
+      <item itemvalue="JUnit.StudentTest.query" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentTest.query" />
+        <item itemvalue="JUnit.StudentTest.add" />
         <item itemvalue="JUnit.OrderDescTest.add" />
         <item itemvalue="JUnit.UserTest.useLinkedListAsLIFO" />
         <item itemvalue="JUnit.UserTest" />
-        <item itemvalue="JUnit.UserTest.add" />
-        <item itemvalue="JUnit.UserTest.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +414,8 @@
       <workItem from="1539067444720" duration="749000" />
       <workItem from="1539135603688" duration="4236000" />
       <workItem from="1539157081414" duration="4637000" />
-      <workItem from="1539307419589" duration="2403000" />
+      <workItem from="1539307419589" duration="5658000" />
+      <workItem from="1539396901089" duration="4118000" />
     </task>
     <task id="LOCAL-00001" summary="config file commit">
       <created>1539143250791</created>
@@ -413,49 +431,56 @@
       <option name="project" value="LOCAL" />
       <updated>1539308963318</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="联合主键测试修改">
+      <created>1539310045546</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539310045546</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest_add - 2018.10.10 at 11h 22m 24s.xml">
-      <configuration name="UserTest.add" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_add - 2018.10.10 at 11h 22m 55s.xml">
-      <configuration name="UserTest.add" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_add - 2018.10.10 at 11h 41m 40s.xml">
-      <configuration name="UserTest.add" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest - 2018.10.10 at 16h 05m 22s.xml">
-      <configuration name="UserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_useLinkedListAsLIFO - 2018.10.10 at 16h 05m 39s.xml">
-      <configuration name="UserTest.useLinkedListAsLIFO" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_useLinkedListAsLIFO - 2018.10.10 at 16h 05m 53s.xml">
-      <configuration name="UserTest.useLinkedListAsLIFO" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_useLinkedListAsLIFO - 2018.10.10 at 16h 08m 30s.xml">
-      <configuration name="UserTest.useLinkedListAsLIFO" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_useLinkedListAsLIFO - 2018.10.10 at 16h 09m 01s.xml">
-      <configuration name="UserTest.useLinkedListAsLIFO" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderDescTest_add - 2018.10.12 at 09h 47m 26s.xml">
-      <configuration name="OrderDescTest.add" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OrderDescTest_add - 2018.10.12 at 09h 47m 48s.xml">
       <configuration name="OrderDescTest.add" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OrderDescTest_add - 2018.10.12 at 10h 04m 43s.xml">
+      <configuration name="OrderDescTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderDescTest_add - 2018.10.12 at 10h 05m 06s.xml">
+      <configuration name="OrderDescTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_add - 2018.10.13 at 10h 23m 01s.xml">
+      <configuration name="StudentTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_add - 2018.10.13 at 10h 24m 57s.xml">
+      <configuration name="StudentTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_add - 2018.10.13 at 10h 25m 56s.xml">
+      <configuration name="StudentTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_add - 2018.10.13 at 10h 26m 21s.xml">
+      <configuration name="StudentTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_query - 2018.10.13 at 10h 27m 44s.xml">
+      <configuration name="StudentTest.query" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_query - 2018.10.13 at 10h 28m 15s.xml">
+      <configuration name="StudentTest.query" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_query - 2018.10.13 at 10h 28m 34s.xml">
+      <configuration name="StudentTest.query" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15974000" />
+    <option name="totallyTimeSpent" value="23347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123324394" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1621984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -465,14 +490,14 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.20998532" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.2393539" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Console" order="7" visible="true" weight="0.3274596" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3274596" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.23054332" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.32599118" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" visible="true" weight="0.2393539" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32892805" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32892805" />
@@ -483,7 +508,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
-      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.087801605" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.13203754" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
@@ -498,7 +523,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="config file commit" />
     <MESSAGE value="联合主键测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="联合主键测试" />
+    <MESSAGE value="联合主键测试修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="联合主键测试修改" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
@@ -618,6 +644,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fce30cdd-79c9-488d-9234-d50e9981ffe7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/kgc/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/kgc/utils/HibernateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/kgc/test/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
@@ -628,65 +682,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/kgc/utils/HibernateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/kgc/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fce30cdd-79c9-488d-9234-d50e9981ffe7/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/kgc/test/OrderDescTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="34" column="56" lean-forward="true" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/kgc/entity/OrderDescPk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="256">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/kgc/entity/OrderDesc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="285">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#450#451#0" expanded="true" />
@@ -698,6 +704,85 @@
             <element signature="e#649#650#0" expanded="true" />
             <element signature="e#677#678#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/kgc/entity/Student.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/kgc/entity/ClassRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/kgc/test/OrderDescTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/kgc/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/kgc/test/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/kgc/entity/ClassRoom.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
